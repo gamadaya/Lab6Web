@@ -27,7 +27,9 @@ Lab6Web/
 │   └── 8.png
 │   └── 9.png               
 │   └── 10.png
-│   └── 11.png 
+│   └── 11.png
+│   └── 12.png
+│   └── 13.png  
 ├── README.md
 ├── lab6_dom_event/
 │   ├── index.html         
@@ -180,6 +182,8 @@ valid.
 ![Langkah 5](./screenshots/6.png)
 ![Langkah 5](./screenshots/7.png)
 ![Langkah 5](./screenshots/8.png)
+![Langkah 5](./screenshots/9.png)
+
 
 ## Latihan 6 — Daftar tugas sederhana (To-do List)
 Buat aplikasi kecil untuk menambahkan tugas dan menandai tugas selesai.
@@ -242,7 +246,7 @@ li {
 Contoh menggunakan textContent untuk menampilkan teks pengguna sebagai teks, bukan markup HTML.
 
 **Screenshot Hasil:**
-![Langkah 6](./screenshots/9.png)
+![Langkah 6](./screenshots/10.png)
 
 ## F. Mini Project — Form Pendaftaran Workshop
 
@@ -836,7 +840,9 @@ tambahTugas.addEventListener("click", function () {
     inputTugas.focus();
 });
 ```
-![Langkah 1](./screenshots/9.png)
+![Langkah 1](./screenshots/11.png)
+
+
 2. Ubah validasi agar nama minimal terdiri dari tiga karakter.
 
 **JavaScript**
@@ -863,9 +869,10 @@ form.addEventListener("submit", function (event) {
     }
 });
 ```
-![Langkah 2](./screenshots/10.png)
+![Langkah 2](./screenshots/12.png)
+
 3. Tambahkan event change pada dropdown sesi workshop dan tampilkan sesi yang dipilih.
-![Langkah 3](./screenshots/11.png)
+![Langkah 3](./screenshots/13.png)
 
 4. Buat tombol untuk menyembunyikan dan menampilkan paragraf menggunakan class CSS.
 
